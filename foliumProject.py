@@ -1,8 +1,12 @@
 import folium
 import requests
 
+
 def main():
-    m = folium.Map(location=(48.1351, 11.5820),zoom_start = 10,)
+    m = folium.Map(location=(48.1351, 11.5820),
+                   zoom_start = 12,
+                   min_zoom=10,
+                   tiles="cartodb positron")
 
     districts(m)
 
@@ -23,27 +27,62 @@ def districts(m):
         "https://gist.githubusercontent.com/freinold/26eba0e6038bc1cff80cf250bde402ab/raw/b2607a53629bdbd9b0625fa633e2b136eec0acaa/munichDistricts.geo.json"
     ).json()
 
-    for feature in districts_data['features']:
-        full_name = feature['properties']['name']
-        partial_name=full_name[14:]
-        feature['properties']['name'] = partial_name
-
-    #add names of districts
-    folium.GeoJson(districts_data, 
-                   name="District Maps",
-                   popup=folium.GeoJsonPopup(
-                    fields=['name'],       # The key in the JSON properties
-                    aliases=['District:'], # The label shown before the name
-                    localize=True)
-                    ).add_to(m)
-
+    world_border = [[-180, -90], [-180, 90], [180, 90], [180, -90], [-180, -90]]
     
+    all_district_coords = []
+
+    for feature in districts_data['features']:
+        #names no longer used
+        full_name = feature['properties']['name']
+        feature['properties']['name'] = full_name[14:]
+        
+        #coordinates of districts
+        all_district_coords.append(feature['geometry']['coordinates'][0])
+
+    # 2. Create the Mask Feature
+    mask_geojson = {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [world_border] + all_district_coords
+        }
+    }
+
+    # 3. Add the Darkened Mask to the map
+    folium.GeoJson(
+        mask_geojson,
+        name="Map Mask",
+        style_function=lambda x: {
+            'fillColor': 'dark_gray',
+            'color': 'none',
+            'fillOpacity': 0.5   
+        },
+        control=False
+    ).add_to(m)
+    
+    folium.GeoJson(
+        districts_data,
+        name="District Maps",
+        fillColor="white",
+        color="black",
+        tooltip=folium.GeoJsonTooltip(
+            fields=['name'],       # The key in the JSON properties
+            aliases=['District:'], # The label shown before the name
+            localize=True
+        ),
+        style_function=lambda x: {
+            'fillColor': 'transparent',
+            'color': 'black',
+            'weight': 1
+        }
+    ).add_to(m)    
+
 def trainsitLines(m):
     munich_SBahn = requests.get(
         "https://gist.githubusercontent.com/leftshift/c3d0bcf4ab848fa49ebd90cc85904ae6/raw/c2db558f00d3e75ea043396c80bf43bd5e15486f/Lines_SBahn.geojson"
     ).json()
 
-    folium.GeoJson(munich_SBahn,name="SBahn",color = "#0B520B").add_to(m)
+    folium.GeoJson(munich_SBahn,name="SBahn",color ="lightgreen").add_to(m)
 
     munich_UBahn = requests.get(
         "https://gist.githubusercontent.com/leftshift/c3d0bcf4ab848fa49ebd90cc85904ae6/raw/c2db558f00d3e75ea043396c80bf43bd5e15486f/Lines_UBahn.geojson"
@@ -79,8 +118,8 @@ def stations(m):
         lon = station['longitude']
         name = station['locationName']
         place = station['place']
-        train = station['ubahn']
-        metro = station['sbahn']
+        train = station['sbahn']
+        metro = station['ubahn']
         tram = station['tram']
         notBus = train or metro or tram
         
@@ -89,12 +128,13 @@ def stations(m):
 
             #Add München Hauptbahnhof as individual group
             if "Hauptbahnhof" in name:
-                folium.Marker(
-                location=[lat, lon],
-                popup=name,
-                tooltip=name,
-                icon=folium.Icon(color='black', icon='train', prefix='fa')
-                ).add_to(station_hauptbahnhof)
+                    if name == "Hauptbahnhof":
+                        folium.Marker(
+                        location=[lat, lon],
+                        popup=name,
+                        tooltip=name,
+                        icon=folium.Icon(color='black', icon='train', prefix='fa')
+                        ).add_to(station_hauptbahnhof)
 
             #Add remaining stations as a group, depending on services
             else:
@@ -105,7 +145,7 @@ def stations(m):
                         location=[lat, lon],
                         popup=name,
                         tooltip=name,
-                        icon=folium.Icon(color = "darkgreen", icon='train', prefix='fa')
+                        icon=folium.Icon(color = 'lightgreen', icon='train', prefix='fa')
                     ).add_to(station_train)
                         
                 #add metro stations
@@ -152,9 +192,6 @@ def circle(m,radius,lat,long):
     ).add_to(radars)
 
     radars.add_to(m)
-
-
-
 
 if __name__ == "__main__":
     main()
