@@ -181,14 +181,14 @@ def circle(m,radius,lat,long):
 
     radars = folium.FeatureGroup(name="Radar", show=False)
     folium.Circle(
-    location=[lat, long],
-    radius=radius,
-    weight=1,
-    fill_opacity=0.6,
-    opacity=1,
-    fill_color="grey",
-    fill=False,  # gets overridden by fill_color
-    show=False,
+        location=[lat, long],
+        radius=radius,
+        weight=0,
+        color = "none",
+        fill_opacity=0.5,
+        opacity=1,
+        fill_color="gray",
+        show=False,
     ).add_to(radars)
 
     radars.add_to(m)
