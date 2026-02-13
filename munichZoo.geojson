@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hellabrunn Zoo"
+      },
+      "geometry": {
+        "coordinates": [
+          11.565197510075052,
+          48.11145263354939
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          11.551858594954659,
+          48.1479673200871
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
