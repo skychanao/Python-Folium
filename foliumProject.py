@@ -14,9 +14,7 @@ def main():
     trainsitLines(m)
 
     stations(m)
-
     
-
     #circle(m,10000,48.1351, 11.5820)
 
     folium.LayerControl().add_to(m)
@@ -195,8 +193,7 @@ def circle(group,radius,lat,long):
         show=False,
     ).add_to(group)
 
-#def Zoos(m):
-    
+
 
 if __name__ == "__main__":
     main()

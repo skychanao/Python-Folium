@@ -16,7 +16,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "name": "Zoo Temp" 
+      },
       "geometry": {
         "coordinates": [
           11.551858594954659,
