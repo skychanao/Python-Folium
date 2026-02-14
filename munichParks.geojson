@@ -1,0 +1,525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.60201046,
+          48.12290436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kustermannpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.566968,
+          48.135968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Herzog-Wilhelm-Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.57423727,
+          48.12575728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Isarpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5808904,
+          48.1203094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kronepark Am Nockherberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5629861,
+          48.14250998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Alter Botanischer Garten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5429975,
+          48.1309499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bavariapark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.60250953,
+          48.11338663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Balan Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.60109645,
+          48.11124242
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grünstadter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.585963,
+          48.10823
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Weißenseepark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6372651,
+          48.1137767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ostpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5578258,
+          48.1088007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Flaucher"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.54167604,
+          48.1079509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sendlinger Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5291303,
+          48.1099833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Heckenstaller Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.528215,
+          48.090353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hermann-von-Siemens-Sport Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5095675,
+          48.1035047
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Südpark - Südparkallee, 81379 Munich, Germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5135242,
+          48.1222191
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Westpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.50662393,
+          48.1140005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Werdenfelspark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5137515,
+          48.1484352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hirschgarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.52955571,
+          48.15790315
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Grünwaldpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.49528088,
+          48.17272124
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hartmannshofer Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.4529451,
+          48.1379012
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pasinger Stadtpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.4939156,
+          48.1569101
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schlosspark Nymphenburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.45554212,
+          48.19857004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Servetstraße Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.41541,
+          48.167014
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Calisthenics Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.43744993,
+          48.18527491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hundesee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.57001339,
+          48.17108777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Luitpoldpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.58090059,
+          48.15584609
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Leopoldpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.579966,
+          48.142847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hofgarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55946868,
+          48.15232894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Maßmannpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59330399,
+          48.15689998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Werneckwiese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6053662,
+          48.1640659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "English Garden - Englischer Garten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6228256,
+          48.1470652
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Denninger Anger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.613008,
+          48.143607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Böhmerwaldplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6451246,
+          48.1441547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Zamila Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6360956,
+          48.15911543
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tannhäuserpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6396951,
+          48.17305234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bolzplatz im Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.69353029,
+          48.12557401
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riemer Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6372651,
+          48.1137767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ostpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.63942309,
+          48.09316017
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Spielplatz Echo Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5490621,
+          48.1739899
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Olympic Park"
+      }
+    }
+  ]
+}

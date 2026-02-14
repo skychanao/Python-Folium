@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.503284,
+          48.1582748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nymphenburg Palace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.559087,
+          48.176612
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "BMW Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5420711,
+          48.1327016
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "German Transport Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.590954,
+          48.142957
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bavarian National Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5830834,
+          48.1297942
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Deutsches Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.573035,
+          48.1351106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtmuseum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.580573,
+          48.135775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "WOW Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5855533,
+          48.1375486
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Museum Five Continents"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5859625,
+          48.1441078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "House of Art"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5786159,
+          48.1406322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Residenz Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5715945,
+          48.138339
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "German Hunting and Fishing Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5758794,
+          48.1399665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kunsthalle der Hypo-Kulturstiftung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5721649,
+          48.1471588
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Pinakothek der Moderne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5741245,
+          48.1481334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Museum Brandhorst"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5682676,
+          48.14694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich Museum of Egyptian Art"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5677093,
+          48.1453557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "NS-Dokumentationszentrum München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5662026,
+          48.1465739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Glyptothek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5634556,
+          48.14694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lenbachhaus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5768782,
+          48.1366819
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Toy Museum Munich"
+      }
+    }
+  ]
+}

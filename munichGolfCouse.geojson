@@ -3,28 +3,28 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "name": "Hellabrunn Zoo"
-      },
       "geometry": {
         "coordinates": [
-          11.565197510075052,
-          48.11145263354939
+          11.67683635,
+          48.15014656
         ],
         "type": "Point"
+      },
+      "properties": {
+        "name": "Golfclub München-Riem"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Circus Krone Zoo" 
-      },
       "geometry": {
         "coordinates": [
-          11.551858594954659,
-          48.1479673200871
+          11.542710484521464,
+          48.09243475765825
         ],
         "type": "Point"
+      },
+      "properties": {
+        "name": "Münchener Golf Club e.V. - Golfanlage Thalkirchen"
       }
     }
   ]
