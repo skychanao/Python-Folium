@@ -45,7 +45,7 @@ def main():
     library(m)
     consulates(m)
 
-    circle(m,2000,48.140419009505536, 11.560159882000054,"gray",0)
+    #circle(m,2000,48.140419009505536, 11.560159882000054,"gray",0)
 
     folium.LayerControl().add_to(m)
 
@@ -280,7 +280,7 @@ def golfCourse(m):
     with open(file_path, 'r', encoding='utf-8') as f:
         munich_golf = json.load(f)
     
-    golf_group = folium.FeatureGroup(name="Golf")
+    golf_group = folium.FeatureGroup(name="Golf Course")
 
     for feature in munich_golf['features']:
         lon, lat = feature['geometry']['coordinates']
