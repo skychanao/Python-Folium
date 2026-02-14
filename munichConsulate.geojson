@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.50338693,
+          48.13562955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Generalkonsulat der Republik Nordmazedonien"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.51107803,
+          48.15959402
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of Turkey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.54370094,
+          48.13351824
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulat Général de France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55338266,
+          48.14877871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of the Kingdom of the Netherlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5585836,
+          48.1455478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of Bosnia and Herzegovina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55735048,
+          48.12915816
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of the Republic of Slovenia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.56623785,
+          48.13457283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of Brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5666917,
+          48.1326233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of South Africa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.56905312,
+          48.14584843
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of Israel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.58065691,
+          48.13571671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Canada Consulate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5833163,
+          48.1446823
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "United States Consulate General"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.58705569,
+          48.14296481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schweizerisches Generalkonsulat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59358893,
+          48.14027775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Indisches Generalkonsulat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59954151,
+          48.14243848
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Italienisches Generalkonsulat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59950717,
+          48.14276773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "British Consulate General Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.60050885,
+          48.14416212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of Greece"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.61458262,
+          48.15202544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Generalkonsulat von Rumänien"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.61600069,
+          48.15862577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Das Spanische Generalkonsulat in München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5988705,
+          48.10165324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Consulate General of Belarus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.57949681,
+          48.10973105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Generalkonsulat der Republik Bulgarien"
+      }
+    }
+  ]
+}

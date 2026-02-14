@@ -32,22 +32,20 @@ def main():
         tiles= 'cartodb positron'
     ).add_to(m)
 
-
     districts(m)
-
     trainsitLines(m)
-
-    stations(m)
-    
+    stations(m)  
     zoos(m)
-
     parks(m)
-
     golfCourse(m)
-
     museum(m)
+    cinemas(m)
+    hospitals(m)
+    see(m)
+    library(m)
+    consulates(m)
 
-    #circle(m,10000,48.1351, 11.5820)
+    circle(m,2000,48.140419009505536, 11.560159882000054,"gray",0)
 
     folium.LayerControl().add_to(m)
 
@@ -165,9 +163,10 @@ def stations(m):
                     folium.Marker(
                     location=[lat, lon],
                     popup=name,
-                    tooltip=name,
                     icon=folium.Icon(color='black', icon='flag-checkered', prefix='fa')
                     ).add_to(station_hauptbahnhof)
+                
+                #add hiding zones
                 circle(hiding_zone,500,lat,lon)
 
             #Add remaining stations as a group, depending on services
@@ -177,25 +176,28 @@ def stations(m):
                     folium.Marker(
                         location=[lat, lon],
                         popup=name,
-                        tooltip=name,
                         icon=folium.Icon(color = 'red', icon='train', prefix='fa')
                     ).add_to(station_train)
+
+                    #add hiding zones
                     circle(hiding_zone,500,lat,lon)
+                
                 #add metro stations
                 elif metro:
                     folium.Marker(
                         location=[lat, lon],
                         popup=name,
-                        tooltip=name,
                         icon=folium.Icon(color="darkblue", icon='subway', prefix='fa')
                     ).add_to(station_metro)   
+
+                    #add hiding zones
                     circle(hiding_zone,500,lat,lon)
+                
                 #add tram stations stations
                 '''else:
                     folium.Marker(
                         location=[lat, lon],
                         popup=name,
-                        tooltip=name,
                         icon=folium.Icon(color='red', icon='tram', prefix='fa')
                     ).add_to(station_tram) '''
                     # show hiding zones  
@@ -213,15 +215,15 @@ def stations(m):
     station_hauptbahnhof.add_to(m)
     hiding_zone.add_to(m)
 
-def circle(group,radius,lat,long):
+def circle(group,radius,lat,long,fillcolor="lightblue",border=1):
     folium.Circle(
         location=[lat, long],
         radius=radius,
-        weight=1,
+        weight=border,
         color = "black",
         fill_opacity=0.5,
         opacity=1,
-        fill_color = "lightblue",
+        fill_color = fillcolor,
         show=False,
     ).add_to(group)
 
@@ -243,7 +245,6 @@ def zoos(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            tooltip=name,
             icon=folium.Icon(color='darkred', icon='paw', prefix='fa') #can use beautify plugin to get hex colors
         ).add_to(zoo_group)
 
@@ -267,7 +268,6 @@ def parks(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            tooltip=name,
             icon=folium.Icon(color='green', icon='tree', prefix='fa')
         ).add_to(park_group)
 
@@ -289,7 +289,6 @@ def golfCourse(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            tooltip=name,
             icon=folium.Icon(color='darkgreen', icon='golf-ball', prefix='fa')
         ).add_to(golf_group)
 
@@ -302,7 +301,7 @@ def museum(m):
     with open(file_path, 'r', encoding='utf-8') as f:
         munich_museum = json.load(f)
     
-    munich_group = folium.FeatureGroup(name="Museums")
+    museum_group = folium.FeatureGroup(name="Museums")
 
     for feature in munich_museum['features']:
         lon, lat = feature['geometry']['coordinates']
@@ -311,14 +310,116 @@ def museum(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            tooltip=name,
             icon=folium.Icon(color='cadetblue', icon='university', prefix='fa')
-        ).add_to(munich_group)
+        ).add_to(museum_group)
 
-    munich_group.show=False
-    munich_group.add_to(m)
+    museum_group.show=False
+    museum_group.add_to(m)
 
+def cinemas(m):
+    url = 'https://httpbin.org/post'
+    file_path = r"E:\TUE\Projects\Python-Folium\munichCinemas.geojson"
+    with open(file_path, 'r', encoding='utf-8') as f:
+        munich_cinemas = json.load(f)
+    
+    cinema_group = folium.FeatureGroup(name="Movie Theaters")
 
+    for feature in munich_cinemas['features']:
+        lon, lat = feature['geometry']['coordinates']
+        name = feature['properties']['name']
+
+        folium.Marker(
+            location=[lat, lon],
+            popup=name,
+            icon=folium.Icon(color='orange', icon='film', prefix='fa')
+        ).add_to(cinema_group)
+
+    cinema_group.show=False
+    cinema_group.add_to(m)
+
+def hospitals(m):
+    url = 'https://httpbin.org/post'
+    file_path = r"E:\TUE\Projects\Python-Folium\munichHospital.geojson"
+    with open(file_path, 'r', encoding='utf-8') as f:
+        munich_hospitals = json.load(f)
+    
+    hospital_group = folium.FeatureGroup(name="Hospitals")
+
+    for feature in munich_hospitals['features']:
+        lon, lat = feature['geometry']['coordinates']
+        name = feature['properties']['name']
+
+        folium.Marker(
+            location=[lat, lon],
+            popup=name,
+            icon=folium.Icon(color='red', icon='ambulance', prefix='fa')
+        ).add_to(hospital_group)
+
+    hospital_group.show=False
+    hospital_group.add_to(m)
+
+def see(m):
+    url = 'https://httpbin.org/post'
+    file_path = r"E:\TUE\Projects\Python-Folium\munichSee.geojson"
+    with open(file_path, 'r', encoding='utf-8') as f:
+        munich_see = json.load(f)
+    
+    see_group = folium.FeatureGroup(name="See (Lake)")
+
+    for feature in munich_see['features']:
+        lon, lat = feature['geometry']['coordinates']
+        name = feature['properties']['name']
+
+        folium.Marker(
+            location=[lat, lon],
+            popup=name,
+            icon=folium.Icon(color='blue', icon='tint', prefix='fa')
+        ).add_to(see_group)
+
+    see_group.show=False
+    see_group.add_to(m)
+
+def library(m):
+    url = 'https://httpbin.org/post'
+    file_path = r"E:\TUE\Projects\Python-Folium\munichLibrary.geojson"
+    with open(file_path, 'r', encoding='utf-8') as f:
+        munich_library = json.load(f)
+    
+    library_group = folium.FeatureGroup(name="Library")
+
+    for feature in munich_library['features']:
+        lon, lat = feature['geometry']['coordinates']
+        name = feature['properties']['name']
+
+        folium.Marker(
+            location=[lat, lon],
+            popup=name,
+            icon=folium.Icon(color='lightred', icon='book', prefix='fa')
+        ).add_to(library_group)
+
+    library_group.show=False
+    library_group.add_to(m)
+
+def consulates(m):
+    url = 'https://httpbin.org/post'
+    file_path = r"E:\TUE\Projects\Python-Folium\munichConsulate.geojson"
+    with open(file_path, 'r', encoding='utf-8') as f:
+        munich_consulates = json.load(f)
+    
+    consulate_group = folium.FeatureGroup(name="Consulate")
+
+    for feature in munich_consulates['features']:
+        lon, lat = feature['geometry']['coordinates']
+        name = feature['properties']['name']
+
+        folium.Marker(
+            location=[lat, lon],
+            popup=name,
+            icon=folium.Icon(color='gray', icon='globe', prefix='fa')
+        ).add_to(consulate_group)
+
+    consulate_group.show=False
+    consulate_group.add_to(m)
 
 if __name__ == "__main__":
     main()

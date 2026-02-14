@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.65543437,
+          48.09486283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "München Klinik Neuperlach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6009564,
+          48.1371968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "TUM Klinikum Rechts der Isar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.624677,
+          48.155166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich Clinic Bogenhausen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5776474,
+          48.1705657
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "München Klinik Schwabing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.58446165,
+          48.17169308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schön Klinik München Schwabing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5648679,
+          48.135431
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Isar Klinikum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.56114735,
+          48.13211056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Klinikum der Universität München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5487659,
+          48.1524647
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "TUM Klinikum Deutsches Herzzentrum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5320503,
+          48.1540935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Red Cross Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5097731,
+          48.1560911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Barmherzige Brüder Krankenhaus München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.505661,
+          48.1650759
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Klinikum Dritter Orden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.45407002,
+          48.14493608
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Helios Hospital Munich West"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.488156,
+          48.122469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Clinic Augustinum Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5482886,
+          48.1031278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Internistisches Klinikum München Süd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5349626,
+          48.0856006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Krankenhaus Martha-Maria München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5583184,
+          48.0854779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Harlaching Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.470621,
+          48.111708
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Großhadern Clinic"
+      }
+    }
+  ]
+}

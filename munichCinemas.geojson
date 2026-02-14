@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55243,
+          48.1729265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kino am Olympiasee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.56354,
+          48.16249
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Monopol Kino München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5531556,
+          48.1482583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cinema Filmtheater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5637625,
+          48.1391101
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mathäser Filmpalast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5578492,
+          48.1301239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Royal Filmpalast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.57018,
+          48.12985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Arena Filmtheater BetriebsGmbH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.582176,
+          48.1341574
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "CinemaxX Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.57654961,
+          48.14105665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Theatiner Filmtheater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.536385,
+          48.149736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "New Maxim cinema"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.566494,
+          48.139657
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Gloria Palast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.573224,
+          48.140377
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Astor@Cinema Lounge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.4924433,
+          48.14146777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Neues Rex Kino"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.511952,
+          48.123459
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kino, Mond & Sterne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.526322,
+          48.080881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kino Solln"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.598495,
+          48.091541
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cincinnati Kino - Filmtheater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.72294126,
+          48.10840398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Haarer Kinos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5875141,
+          48.1309747
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Museum Lichtspiele"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59292,
+          48.1287
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rio Filmcafé"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5778113,
+          48.15329628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "ASTOR Film Lounge im ARRI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.58657,
+          48.16071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Leopold Kino"
+      }
+    }
+  ]
+}

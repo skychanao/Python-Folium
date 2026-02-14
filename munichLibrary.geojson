@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.64413197,
+          48.10194286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek Neuperlach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.61969852,
+          48.15196937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich public library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59128986,
+          48.12999344
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek im Motorama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.582007,
+          48.114325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek Giesing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5840909,
+          48.1303531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Deutsches Museum Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5762808,
+          48.1374013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Juristische Bibliothek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55970636,
+          48.12559234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek Isarvorstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55424793,
+          48.11117105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek im HP8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.537867,
+          48.117076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek Sendling"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.54509295,
+          48.13648424
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich City Library Westend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5804239,
+          48.1477525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bavarian state library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.58059249,
+          48.14968241
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "UB University of Munich - Central Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5681305,
+          48.1488124
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "University Library of the Technische Universität München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.55244204,
+          48.15370779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bibliothek Hochschule München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.53213281,
+          48.1553547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Münchner Stadtbibliothek Neuhausen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.56700062,
+          48.18287978
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich City Library Milbertshofen - Schleißheimer Str. 340, 80807 Munich, Germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.594568,
+          48.149881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "University Library of LMU - English Garden Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.46152448,
+          48.14722231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich City Library Pasing - Bäckerstraße 9, 81241 Munich, Germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.46152448,
+          48.14722231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich City Library Pasing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.49084607,
+          48.11857961
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Citylibrary Hadern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.49436069,
+          48.09581237
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Munich City Library Fürstenried"
+      }
+    }
+  ]
+}

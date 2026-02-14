@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.53318493,
+          48.12625324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mollsee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.542350679194522,
+          48.08556039611717
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hinterbrühler See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.70596086,
+          48.12624481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Riemer See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.74212239,
+          48.15499033
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Heimstettener See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59678432,
+          48.15915896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kleinhesseloher See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.59103806,
+          48.17210911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Schwabinger See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.49122972,
+          48.15487129
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Badenburger See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.5353591,
+          48.19637075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lerchenauer See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.52989914,
+          48.20544432
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Fasaneriesee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.51575415,
+          48.21372463
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Feldmochinger See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.41633567,
+          48.19418581
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Langwieder See"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.41830441,
+          48.19902216
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lußsee"
+      }
+    }
+  ]
+}
