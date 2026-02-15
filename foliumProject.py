@@ -60,25 +60,28 @@ def addDraw(m):
         draw_options={
             'poliyline': {
                 'shapeOption' : {
-                    'fillcolor': '#434343',
-                    'color': '#434343',
+                    'fillcolor': '#7F7F7F',
+                    'color': '#7F7F7F',
                 }
             },
             'polygon': {
                 'shapeOptions': {
-                    'color': "#000000", 
+                    'color': "#7F7F7F", 
+                    'fillOpacity':0.5,
                     'weight': 0,
                 }
             },
             'circle': {
                 'shapeOptions': {
-                    'fillColor': "#000000",
+                    'fillColor': "#7F7F7F",
+                    'fillOpacity': 0.5,
                     'weight': 0,
                 }
             },
             'rectangle': {
                 'shapeOptions': {
-                    'fillColor': "#000000",
+                    'fillColor': "#7F7F7F",
+                    'fillOpacity': 0.5,
                     'weight': 0,
                     }
             },
