@@ -2,15 +2,6 @@ import folium
 import requests
 import json
 def main():
-    '''m = folium.Map(location=(48.15266871079503, 11.547840081444003),
-                   zoom_start = 11.5,
-                   min_zoom=10.5,
-                   control_scale = True,
-                   #tiles="cartodb positron"
-                   )'''
-    
-    cartonDB = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
-
     m = folium.Map(location=(48.15266871079503, 11.547840081444003),
 	    maxZoom= 20,
         zoom_start = 11.5,
@@ -18,6 +9,7 @@ def main():
         control_scale=True
     )
 
+    cartonDB = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
     folium.TileLayer(
     tiles= cartonDB,
 	    attr= '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -342,7 +334,7 @@ def museum(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            icon=folium.Icon(color='cadetblue', icon='university', prefix='fa')
+            icon=folium.Icon(color='orange', icon='university', prefix='fa')
         ).add_to(museum_group)
 
     museum_group.show=False
@@ -363,7 +355,7 @@ def cinemas(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            icon=folium.Icon(color='orange', icon='film', prefix='fa')
+            icon=folium.Icon(color='cadetblue', icon='film', prefix='fa')
         ).add_to(cinema_group)
 
     cinema_group.show=False
@@ -447,7 +439,7 @@ def consulates(m):
         folium.Marker(
             location=[lat, lon],
             popup=name,
-            icon=folium.Icon(color='gray', icon='globe', prefix='fa')
+            icon=folium.Icon(color='darkpurple', icon='globe', prefix='fa')
         ).add_to(consulate_group)
 
     consulate_group.show=False

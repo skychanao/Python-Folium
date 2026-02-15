@@ -247,6 +247,20 @@
       "properties": {
         "name": "Toy Museum Munich"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          11.6022364,
+          48.1030112
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "MVG Museum"
+      }
     }
+
   ]
 }
