@@ -1,7 +1,6 @@
 import folium
 import requests
 import json
-
 def main():
     '''m = folium.Map(location=(48.15266871079503, 11.547840081444003),
                    zoom_start = 11.5,
@@ -32,6 +31,7 @@ def main():
         tiles= 'cartodb positron'
     ).add_to(m)
 
+    addDraw(m)
     districts(m)
     trainsitLines(m)
     stations(m)  
@@ -45,14 +45,48 @@ def main():
     library(m)
     consulates(m)
 
-    #circle(m,2000,48.140419009505536, 11.560159882000054,"gray",0)
-
     folium.LayerControl().add_to(m)
 
     print("sucessfully generated map")
 
     file_name = 'E:\TUE\Projects\Python-Folium\map'
     m.save(file_name + '.html')
+
+def addDraw(m):
+
+    from folium.plugins import Draw
+
+    draw = Draw(position='bottomright',
+        draw_options={
+            'poliyline': {
+                'shapeOption' : {
+                    'fillcolor': '#434343',
+                    'color': '#434343',
+                }
+            },
+            'polygon': {
+                'shapeOptions': {
+                    'color': "#000000", 
+                    'weight': 0,
+                }
+            },
+            'circle': {
+                'shapeOptions': {
+                    'fillColor': "#000000",
+                    'weight': 0,
+                }
+            },
+            'rectangle': {
+                'shapeOptions': {
+                    'fillColor': "#000000",
+                    'weight': 0,
+                    }
+            },
+            'circlemarker': False
+            }
+    )
+
+    draw.add_to(m)
 
 def districts(m):
     districts_data = requests.get(
@@ -95,11 +129,6 @@ def districts(m):
         name="Boroughs",
         fillColor="white",
         color="black",
-        tooltip=folium.GeoJsonTooltip(
-            fields=['name'],       # The key in the JSON properties
-            aliases=['Borough:'], # The label shown before the name
-            localize=True
-        ),
         style_function=lambda x: {
             'fillColor': 'transparent',
             'color': 'black',
