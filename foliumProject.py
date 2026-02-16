@@ -50,31 +50,31 @@ def addDraw(m):
 
     draw = Draw(position='bottomright',
         draw_options={
-            'poliyline': {
-                'shapeOption' : {
-                    'fillcolor': '#7F7F7F',
-                    'color': '#7F7F7F',
+            'polyline': {
+                'shapeOptions' : {
+                    'color': "#000000",
+                    'weight': 5,
                 }
             },
             'polygon': {
                 'shapeOptions': {
-                    'color': "#7F7F7F", 
+                    'color': "#6A6A6A",
                     'fillOpacity':0.5,
                     'weight': 0,
                 }
             },
             'circle': {
                 'shapeOptions': {
-                    'fillColor': "#7F7F7F",
-                    'fillOpacity': 0.5,
-                    'weight': 0,
+                    'color': "#000000",
+                    'weight': 5,
+                    'fillOpacity': 0,
                 }
             },
             'rectangle': {
                 'shapeOptions': {
-                    'fillColor': "#7F7F7F",
-                    'fillOpacity': 0.5,
-                    'weight': 0,
+                    'color': "#000000",
+                    'weight': 5,
+                    'fillOpacity': 0,
                     }
             },
             'circlemarker': False
