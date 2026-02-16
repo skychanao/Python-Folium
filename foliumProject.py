@@ -77,7 +77,7 @@ def addDraw(m):
                     }
             },
             'circlemarker': False
-            }
+        }
     )
 
     draw_fill = Draw(position='bottomleft',
@@ -110,25 +110,29 @@ def addDraw(m):
                     }
             },
             'circlemarker': False
-            }
+        },
+                edit_options={
+            'edit': False,    
+            'remove': False
+        },
     )
 
     draw_edge.add_to(m)
     draw_fill.add_to(m)
 
     edge_label = """
-    <div style="position: fixed; bottom: 200px; right: 50px; z-index:9999; 
-                background-color: white; padding: 5px; border: 1px black; border-radius: 5px;">
-        <span style="color: black; font-weight: bold;">Edges&rarr; </span>
+    <div style="position: fixed; bottom: 260px; right: 10px; z-index:9999; 
+                background-color: white; padding: 2px; border: 1px black; border-radius: 2px;">
+        <span style="color: black; font-weight: bold;">Edge </span>
     </div>
     """
     m.get_root().html.add_child(folium.Element(edge_label))
 
     # Label for Top Right (Blue)
     fill_label = """
-    <div style="position: fixed; bottom: 200px; left: 50px; z-index:9999; 
-                background-color: white; padding: 5px; border: 1px black; border-radius: 5px;">
-        <span style="color: black; font-weight: bold;">&larr; Fill</span>
+    <div style="position: fixed; bottom: 200px; left: 10px; z-index:9999; 
+                background-color: white; padding: 2px; border: 1px black; border-radius: 2px;">
+        <span style="color: black; font-weight: bold;"> Fill</span>
     </div>
     """
     m.get_root().html.add_child(folium.Element(fill_label))
