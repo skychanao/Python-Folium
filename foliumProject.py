@@ -47,8 +47,7 @@ def main():
 def addDraw(m):
 
     from folium.plugins import Draw
-
-    draw = Draw(position='bottomright',
+    draw_edge = Draw(position='bottomright',
         draw_options={
             'polyline': {
                 'shapeOptions' : {
@@ -58,9 +57,9 @@ def addDraw(m):
             },
             'polygon': {
                 'shapeOptions': {
-                    'color': "#6A6A6A",
-                    'fillOpacity':0.5,
-                    'weight': 0,
+                    'color': "#000000",
+                    'weight': 5,
+                    'fillOpacity': 0,
                 }
             },
             'circle': {
@@ -81,7 +80,58 @@ def addDraw(m):
             }
     )
 
-    draw.add_to(m)
+    draw_fill = Draw(position='bottomleft',
+        draw_options={
+            'polyline': {
+                'shapeOptions' : {
+                    'color': "#000000",
+                    'weight': 5,
+                }
+            },
+            'polygon': {
+                'shapeOptions': {
+                    'color': "#6A6A6A",
+                    'fillOpacity':0.5,
+                    'weight': 0,
+                }
+            },
+            'circle': {
+                'shapeOptions': {
+                    'color': "#6A6A6A",
+                    'fillOpacity':0.5,
+                    'weight': 0,
+                }
+            },
+            'rectangle': {
+                'shapeOptions': {
+                    'color': "#6A6A6A",
+                    'fillOpacity':0.5,
+                    'weight': 0,
+                    }
+            },
+            'circlemarker': False
+            }
+    )
+
+    draw_edge.add_to(m)
+    draw_fill.add_to(m)
+
+    edge_label = """
+    <div style="position: fixed; bottom: 200px; right: 50px; z-index:9999; 
+                background-color: white; padding: 5px; border: 1px black; border-radius: 5px;">
+        <span style="color: black; font-weight: bold;">Edges&rarr; </span>
+    </div>
+    """
+    m.get_root().html.add_child(folium.Element(edge_label))
+
+    # Label for Top Right (Blue)
+    fill_label = """
+    <div style="position: fixed; bottom: 200px; left: 50px; z-index:9999; 
+                background-color: white; padding: 5px; border: 1px black; border-radius: 5px;">
+        <span style="color: black; font-weight: bold;">&larr; Fill</span>
+    </div>
+    """
+    m.get_root().html.add_child(folium.Element(fill_label))
 
 def districts(m):
     districts_data = requests.get(
